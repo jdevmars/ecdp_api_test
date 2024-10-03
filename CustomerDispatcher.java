@@ -22,7 +22,7 @@ public class CustomerDispatcher {
                     .uri(new URI("https://api.ecdp.app/customers/id/53492"))
                     .headers(
                             "Content-Type", "application/json",
-                            "x-api-key", "G0tniopPRng0irf37OT9"
+                            "x-api-key", "hahaha"
                     )
                     .GET()
                     .build();
@@ -81,7 +81,7 @@ public class CustomerDispatcher {
                     .uri(new URI("https://api.ecdp.app/customers"))
                     .headers(
 							"Content-Type", "application/json",
-							"x-api-key", "G0tniopPRng0irf37OT9"
+							"x-api-key", "hehehe"
 						   )
                     .POST(HttpRequest.BodyPublishers.ofString(json))
                     .build();
